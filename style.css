@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+body{
+  background-color: black;
+  background-image:url(/assets/p2.png) ;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.logo{
+  position:absolute;
+  left:70px;
+  top:30px;
+}
+.bottom{
+  position:absolute;
+  left:1100px;
+  top:450px;
+}
+ul{
+  position:relative;
+  left:600px;
+  top:10px;
+  display:flex;
+  width:500px;
+}
+.button-large{
+  position:absolute;
+  left:660px;
+  top:500px; 
+  background-color: rgb(252, 79, 79);
+  width:220px;
+  height:50px;
+border-color:rgb(252,79,79) ;
+font-weight: bolder;
+font-size: 20px;
+color:white;
+
+}
+.button-small{
+  position:absolute;
+  left:1090px;
+  top:45px; 
+  background-color: rgb(247, 80, 80);
+  width:150px;
+  height:40px;
+border-color:rgb(252, 79, 79) ;
+font-weight: bolder;
+font-size: 20px;
+color:white;
+
+}
+h1{
+  position:absolute;
+  left:510px;
+  top:200px; 
+  color:rgb(245, 193, 21);
+  font-size: 70px;
+  font-weight:bolder;
+  font-family: 'verdana';
+
+}
+.list
+{
+position:absolute;
+  left:550px;
+  display:flex;
+  top:30px;
+color:rgb(245, 193, 21);
+width:180px;
+}
+li{
+  list-style:none;
+  margin-left: 40px;
+  
+
+}
